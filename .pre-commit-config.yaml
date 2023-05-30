@@ -1,0 +1,11 @@
+repos:
+  - repo: https://github.com/pre-commit/mirrors-isort
+    rev: 'v5.10.1'  # Replace with the desired isort version (e.g., "5.9.2")
+    hooks:
+      - id: isort
+
+  - repo: https://github.com/psf/black
+    rev: '23.3.0'  # Replace with the desired black version (e.g., "21.5b2")
+    hooks:
+      - id: black
+
